@@ -1,10 +1,10 @@
 import numpy as np
-import gym
-from gym import spaces
-from gym.utils import seeding
+import gymnasium
+from gymnasium import spaces
+from gymnasium.utils import seeding
 
 
-class BanditEnv(gym.Env):
+class BanditEnv(gymnasium.Env):
     """
     Bandit environment base to allow agents to interact with the class n-armed bandit
     in different variations

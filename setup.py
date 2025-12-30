@@ -8,5 +8,5 @@ setup(name='gym_bandits',
       packages=['gym_bandits'],
       author_email='jesse_cooper@hotmail.com',
       license='MIT License',
-      install_requires=['gym>=0.2.3'],
+      install_requires=['gymnasium'],
 )
